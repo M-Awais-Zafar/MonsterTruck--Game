@@ -1,0 +1,22 @@
+R_DEF: Internal format may change without notice
+local
+bool admob_test
+bool connect_games
+bool show_admob
+drawable ic_launcher
+drawable ic_launcher_background
+id admob
+id app
+layout main
+mipmap ic_launcher
+mipmap ic_launcher_foreground
+mipmap ic_launcher_round
+string adMob_app_id
+string adMob_banner
+string adMob_interstitial
+string app_id
+string app_name
+string error_games_exists
+string error_sign_in
+string leaderboard
+style GdxTheme

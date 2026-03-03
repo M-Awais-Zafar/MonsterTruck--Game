@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="admob_test" type="bool">true</item>
+    <item name="connect_games" type="bool">true</item>
+    <item name="show_admob" type="bool">true</item>
+    <string name="adMob_app_id">ca-app-pub-7446850586548462~2164873455</string>
+    <string name="adMob_banner">ca-app-pub-7446850586548462/7305519494</string>
+    <string name="adMob_interstitial">ca-app-pub-7446850586548462/6216303687</string>
+    <string name="app_id">874825193742</string>
+    <string name="app_name">Monster Truck Adventure jump</string>
+    <string name="error_games_exists">Google Play Games is not available</string>
+    <string name="error_sign_in">Failed to sign in, check your network connection</string>
+    <string name="leaderboard">CgkIjrKU_boZEAIQBw</string>
+    <style name="GdxTheme" parent="android:Theme">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+</resources>

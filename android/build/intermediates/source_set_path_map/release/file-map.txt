@@ -1,0 +1,30 @@
+com.monstertruck.arena.android-jetified-play-services-auth-21.5.1-0 C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\0198df000c76094d43a376e94593140d\transformed\jetified-play-services-auth-21.5.1\res
+com.monstertruck.arena.android-jetified-play-services-ads-api-25.0.0-1 C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\05d8eafdd6d3be5948748f160f7ebab5\transformed\jetified-play-services-ads-api-25.0.0\res
+com.monstertruck.arena.android-jetified-annotation-experimental-1.4.1-2 C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\0f9319f1c98fd6e21ff293b9544e3ff9\transformed\jetified-annotation-experimental-1.4.1\res
+com.monstertruck.arena.android-lifecycle-viewmodel-2.5.1-3 C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\221521318da4b7edab777ff9456ead8b\transformed\lifecycle-viewmodel-2.5.1\res
+com.monstertruck.arena.android-jetified-activity-1.5.1-4 C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\3502f1b79458e8d8a55dd081ecc99c53\transformed\jetified-activity-1.5.1\res
+com.monstertruck.arena.android-jetified-ads-adservices-java-1.0.0-beta05-5 C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\38e8de66ee4c11f758694b174d0400e9\transformed\jetified-ads-adservices-java-1.0.0-beta05\res
+com.monstertruck.arena.android-jetified-savedstate-1.2.0-6 C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\4bd9937ecc07a03b78eed51f95c203da\transformed\jetified-savedstate-1.2.0\res
+com.monstertruck.arena.android-jetified-play-services-ads-25.0.0-7 C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\4ca5fc9f8e4dc82eb0a54c597871ebc1\transformed\jetified-play-services-ads-25.0.0\res
+com.monstertruck.arena.android-jetified-startup-runtime-1.0.0-8 C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\4ea0fea9a5c10d078367d843051e1ce7\transformed\jetified-startup-runtime-1.0.0\res
+com.monstertruck.arena.android-jetified-ads-adservices-1.0.0-beta05-9 C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\63caa8bf6109ecbe6af1511e60399f08\transformed\jetified-ads-adservices-1.0.0-beta05\res
+com.monstertruck.arena.android-jetified-lifecycle-viewmodel-savedstate-2.5.1-10 C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\6523139de1134be58086b6298e4a89e0\transformed\jetified-lifecycle-viewmodel-savedstate-2.5.1\res
+com.monstertruck.arena.android-lifecycle-runtime-2.5.1-11 C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\6cf9eeeeae7081bd0bc281a37d2f9468\transformed\lifecycle-runtime-2.5.1\res
+com.monstertruck.arena.android-jetified-core-ktx-1.10.1-12 C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\71e6a7168d241fdd13a373f506735e43\transformed\jetified-core-ktx-1.10.1\res
+com.monstertruck.arena.android-core-1.10.1-13 C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\8bbff6c3d283c20e01d916d7ea33e027\transformed\core-1.10.1\res
+com.monstertruck.arena.android-jetified-play-services-games-v2-20.1.2-14 C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\961a474ae465ec023903cfc8b5b6176e\transformed\jetified-play-services-games-v2-20.1.2\res
+com.monstertruck.arena.android-lifecycle-livedata-core-2.5.1-15 C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\a015e083698d0626c99ae0175787a448\transformed\lifecycle-livedata-core-2.5.1\res
+com.monstertruck.arena.android-jetified-play-services-base-18.5.0-16 C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\a36e3d81300245dcdaf31fbd59c2f11f\transformed\jetified-play-services-base-18.5.0\res
+com.monstertruck.arena.android-browser-1.8.0-17 C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\a39796a7b99010b721e62031411f3a33\transformed\browser-1.8.0\res
+com.monstertruck.arena.android-work-runtime-2.7.0-18 C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\res
+com.monstertruck.arena.android-jetified-play-services-basement-18.9.0-19 C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\bea3d50c57af243df4115cc60df8605f\transformed\jetified-play-services-basement-18.9.0\res
+com.monstertruck.arena.android-jetified-datastore-1.0.0-20 C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\c61327b69e5caaf41c9b92886b39cc1c\transformed\jetified-datastore-1.0.0\res
+com.monstertruck.arena.android-fragment-1.5.7-21 C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\dfa803856826453d0561c27f67e503ee\transformed\fragment-1.5.7\res
+com.monstertruck.arena.android-webkit-1.12.1-22 C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\f00dd6533425a7a05039a744fc530d9c\transformed\webkit-1.12.1\res
+com.monstertruck.arena.android-pngs-23 D:\MonsterTruck\android\build\generated\res\pngs\release
+com.monstertruck.arena.android-resValues-24 D:\MonsterTruck\android\build\generated\res\resValues\release
+com.monstertruck.arena.android-packageReleaseResources-25 D:\MonsterTruck\android\build\intermediates\incremental\release\packageReleaseResources\merged.dir
+com.monstertruck.arena.android-packageReleaseResources-26 D:\MonsterTruck\android\build\intermediates\incremental\release\packageReleaseResources\stripped.dir
+com.monstertruck.arena.android-merged_res-27 D:\MonsterTruck\android\build\intermediates\merged_res\release
+com.monstertruck.arena.android-android-28 D:\MonsterTruck\android\res
+com.monstertruck.arena.android-release-29 D:\MonsterTruck\android\src\release\res

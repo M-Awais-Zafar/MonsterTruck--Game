@@ -1,0 +1,523 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.monstertruck.arena"
+4    android:versionCode="3"
+5    android:versionName="1.2" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="36" />
+10
+11    <queries>
+11-->[com.google.android.gms:play-services-games-v2:20.1.2] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\961a474ae465ec023903cfc8b5b6176e\transformed\jetified-play-services-games-v2-20.1.2\AndroidManifest.xml:7:5-10:15
+12        <package android:name="com.google.android.gms" />
+12-->[com.google.android.gms:play-services-games-v2:20.1.2] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\961a474ae465ec023903cfc8b5b6176e\transformed\jetified-play-services-games-v2-20.1.2\AndroidManifest.xml:8:9-58
+12-->[com.google.android.gms:play-services-games-v2:20.1.2] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\961a474ae465ec023903cfc8b5b6176e\transformed\jetified-play-services-games-v2-20.1.2\AndroidManifest.xml:8:18-55
+13        <package android:name="com.android.vending" />
+13-->[com.google.android.gms:play-services-games-v2:20.1.2] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\961a474ae465ec023903cfc8b5b6176e\transformed\jetified-play-services-games-v2-20.1.2\AndroidManifest.xml:9:9-55
+13-->[com.google.android.gms:play-services-games-v2:20.1.2] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\961a474ae465ec023903cfc8b5b6176e\transformed\jetified-play-services-games-v2-20.1.2\AndroidManifest.xml:9:18-52
+14        <!-- For browser content -->
+15        <intent>
+15-->[com.google.android.gms:play-services-ads-api:25.0.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\05d8eafdd6d3be5948748f160f7ebab5\transformed\jetified-play-services-ads-api-25.0.0\AndroidManifest.xml:38:9-44:18
+16            <action android:name="android.intent.action.VIEW" />
+16-->[com.google.android.gms:play-services-ads-api:25.0.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\05d8eafdd6d3be5948748f160f7ebab5\transformed\jetified-play-services-ads-api-25.0.0\AndroidManifest.xml:39:13-65
+16-->[com.google.android.gms:play-services-ads-api:25.0.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\05d8eafdd6d3be5948748f160f7ebab5\transformed\jetified-play-services-ads-api-25.0.0\AndroidManifest.xml:39:21-62
+17
+18            <category android:name="android.intent.category.BROWSABLE" />
+18-->[com.google.android.gms:play-services-ads-api:25.0.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\05d8eafdd6d3be5948748f160f7ebab5\transformed\jetified-play-services-ads-api-25.0.0\AndroidManifest.xml:41:13-74
+18-->[com.google.android.gms:play-services-ads-api:25.0.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\05d8eafdd6d3be5948748f160f7ebab5\transformed\jetified-play-services-ads-api-25.0.0\AndroidManifest.xml:41:23-71
+19
+20            <data android:scheme="https" />
+20-->[com.google.android.gms:play-services-ads-api:25.0.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\05d8eafdd6d3be5948748f160f7ebab5\transformed\jetified-play-services-ads-api-25.0.0\AndroidManifest.xml:43:13-44
+20-->[com.google.android.gms:play-services-ads-api:25.0.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\05d8eafdd6d3be5948748f160f7ebab5\transformed\jetified-play-services-ads-api-25.0.0\AndroidManifest.xml:43:19-41
+21        </intent> <!-- End of browser content -->
+22        <!-- For CustomTabsService -->
+23        <intent>
+23-->[com.google.android.gms:play-services-ads-api:25.0.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\05d8eafdd6d3be5948748f160f7ebab5\transformed\jetified-play-services-ads-api-25.0.0\AndroidManifest.xml:47:9-49:18
+24            <action android:name="android.support.customtabs.action.CustomTabsService" />
+24-->[com.google.android.gms:play-services-ads-api:25.0.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\05d8eafdd6d3be5948748f160f7ebab5\transformed\jetified-play-services-ads-api-25.0.0\AndroidManifest.xml:48:13-90
+24-->[com.google.android.gms:play-services-ads-api:25.0.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\05d8eafdd6d3be5948748f160f7ebab5\transformed\jetified-play-services-ads-api-25.0.0\AndroidManifest.xml:48:21-87
+25        </intent> <!-- End of CustomTabsService -->
+26        <!-- For MRAID capabilities -->
+27        <intent>
+27-->[com.google.android.gms:play-services-ads-api:25.0.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\05d8eafdd6d3be5948748f160f7ebab5\transformed\jetified-play-services-ads-api-25.0.0\AndroidManifest.xml:52:9-56:18
+28            <action android:name="android.intent.action.INSERT" />
+28-->[com.google.android.gms:play-services-ads-api:25.0.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\05d8eafdd6d3be5948748f160f7ebab5\transformed\jetified-play-services-ads-api-25.0.0\AndroidManifest.xml:53:13-67
+28-->[com.google.android.gms:play-services-ads-api:25.0.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\05d8eafdd6d3be5948748f160f7ebab5\transformed\jetified-play-services-ads-api-25.0.0\AndroidManifest.xml:53:21-64
+29
+30            <data android:mimeType="vnd.android.cursor.dir/event" />
+30-->[com.google.android.gms:play-services-ads-api:25.0.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\05d8eafdd6d3be5948748f160f7ebab5\transformed\jetified-play-services-ads-api-25.0.0\AndroidManifest.xml:43:13-44
+31        </intent>
+32        <intent>
+32-->[com.google.android.gms:play-services-ads-api:25.0.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\05d8eafdd6d3be5948748f160f7ebab5\transformed\jetified-play-services-ads-api-25.0.0\AndroidManifest.xml:57:9-61:18
+33            <action android:name="android.intent.action.VIEW" />
+33-->[com.google.android.gms:play-services-ads-api:25.0.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\05d8eafdd6d3be5948748f160f7ebab5\transformed\jetified-play-services-ads-api-25.0.0\AndroidManifest.xml:39:13-65
+33-->[com.google.android.gms:play-services-ads-api:25.0.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\05d8eafdd6d3be5948748f160f7ebab5\transformed\jetified-play-services-ads-api-25.0.0\AndroidManifest.xml:39:21-62
+34
+35            <data android:scheme="sms" />
+35-->[com.google.android.gms:play-services-ads-api:25.0.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\05d8eafdd6d3be5948748f160f7ebab5\transformed\jetified-play-services-ads-api-25.0.0\AndroidManifest.xml:43:13-44
+35-->[com.google.android.gms:play-services-ads-api:25.0.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\05d8eafdd6d3be5948748f160f7ebab5\transformed\jetified-play-services-ads-api-25.0.0\AndroidManifest.xml:43:19-41
+36        </intent>
+37        <intent>
+37-->[com.google.android.gms:play-services-ads-api:25.0.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\05d8eafdd6d3be5948748f160f7ebab5\transformed\jetified-play-services-ads-api-25.0.0\AndroidManifest.xml:62:9-66:18
+38            <action android:name="android.intent.action.DIAL" />
+38-->[com.google.android.gms:play-services-ads-api:25.0.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\05d8eafdd6d3be5948748f160f7ebab5\transformed\jetified-play-services-ads-api-25.0.0\AndroidManifest.xml:63:13-65
+38-->[com.google.android.gms:play-services-ads-api:25.0.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\05d8eafdd6d3be5948748f160f7ebab5\transformed\jetified-play-services-ads-api-25.0.0\AndroidManifest.xml:63:21-62
+39
+40            <data android:path="tel:" />
+40-->[com.google.android.gms:play-services-ads-api:25.0.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\05d8eafdd6d3be5948748f160f7ebab5\transformed\jetified-play-services-ads-api-25.0.0\AndroidManifest.xml:43:13-44
+41        </intent>
+42    </queries> <!-- Include required permissions for Google Mobile Ads to run -->
+43    <uses-permission android:name="android.permission.INTERNET" />
+43-->[com.google.android.gms:play-services-ads-api:25.0.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\05d8eafdd6d3be5948748f160f7ebab5\transformed\jetified-play-services-ads-api-25.0.0\AndroidManifest.xml:24:5-67
+43-->[com.google.android.gms:play-services-ads-api:25.0.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\05d8eafdd6d3be5948748f160f7ebab5\transformed\jetified-play-services-ads-api-25.0.0\AndroidManifest.xml:24:22-64
+44    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+44-->[com.google.android.gms:play-services-ads-api:25.0.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\05d8eafdd6d3be5948748f160f7ebab5\transformed\jetified-play-services-ads-api-25.0.0\AndroidManifest.xml:25:5-79
+44-->[com.google.android.gms:play-services-ads-api:25.0.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\05d8eafdd6d3be5948748f160f7ebab5\transformed\jetified-play-services-ads-api-25.0.0\AndroidManifest.xml:25:22-76
+45    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+45-->[com.google.android.gms:play-services-ads-api:25.0.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\05d8eafdd6d3be5948748f160f7ebab5\transformed\jetified-play-services-ads-api-25.0.0\AndroidManifest.xml:26:5-79
+45-->[com.google.android.gms:play-services-ads-api:25.0.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\05d8eafdd6d3be5948748f160f7ebab5\transformed\jetified-play-services-ads-api-25.0.0\AndroidManifest.xml:26:22-76
+46    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID" />
+46-->[com.google.android.gms:play-services-ads-api:25.0.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\05d8eafdd6d3be5948748f160f7ebab5\transformed\jetified-play-services-ads-api-25.0.0\AndroidManifest.xml:27:5-82
+46-->[com.google.android.gms:play-services-ads-api:25.0.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\05d8eafdd6d3be5948748f160f7ebab5\transformed\jetified-play-services-ads-api-25.0.0\AndroidManifest.xml:27:22-79
+47    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
+47-->[com.google.android.gms:play-services-ads-api:25.0.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\05d8eafdd6d3be5948748f160f7ebab5\transformed\jetified-play-services-ads-api-25.0.0\AndroidManifest.xml:28:5-88
+47-->[com.google.android.gms:play-services-ads-api:25.0.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\05d8eafdd6d3be5948748f160f7ebab5\transformed\jetified-play-services-ads-api-25.0.0\AndroidManifest.xml:28:22-85
+48    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_TOPICS" />
+48-->[com.google.android.gms:play-services-ads-api:25.0.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\05d8eafdd6d3be5948748f160f7ebab5\transformed\jetified-play-services-ads-api-25.0.0\AndroidManifest.xml:29:5-83
+48-->[com.google.android.gms:play-services-ads-api:25.0.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\05d8eafdd6d3be5948748f160f7ebab5\transformed\jetified-play-services-ads-api-25.0.0\AndroidManifest.xml:29:22-80
+49    <uses-permission android:name="android.permission.WAKE_LOCK" />
+49-->[com.google.android.gms:play-services-measurement-sdk-api:20.1.2] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\841e3cab8a4af71928abf9f5a0c9ceda\transformed\jetified-play-services-measurement-sdk-api-20.1.2\AndroidManifest.xml:25:5-68
+49-->[com.google.android.gms:play-services-measurement-sdk-api:20.1.2] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\841e3cab8a4af71928abf9f5a0c9ceda\transformed\jetified-play-services-measurement-sdk-api-20.1.2\AndroidManifest.xml:25:22-65
+50    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+50-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:28:5-77
+50-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:28:22-74
+51
+52    <permission
+52-->[androidx.core:core:1.10.1] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\8bbff6c3d283c20e01d916d7ea33e027\transformed\core-1.10.1\AndroidManifest.xml:22:5-24:47
+53        android:name="com.monstertruck.arena.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+53-->[androidx.core:core:1.10.1] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\8bbff6c3d283c20e01d916d7ea33e027\transformed\core-1.10.1\AndroidManifest.xml:23:9-81
+54        android:protectionLevel="signature" />
+54-->[androidx.core:core:1.10.1] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\8bbff6c3d283c20e01d916d7ea33e027\transformed\core-1.10.1\AndroidManifest.xml:24:9-44
+55
+56    <uses-permission android:name="com.monstertruck.arena.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+56-->[androidx.core:core:1.10.1] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\8bbff6c3d283c20e01d916d7ea33e027\transformed\core-1.10.1\AndroidManifest.xml:26:5-97
+56-->[androidx.core:core:1.10.1] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\8bbff6c3d283c20e01d916d7ea33e027\transformed\core-1.10.1\AndroidManifest.xml:26:22-94
+57
+58    <application
+58-->D:\MonsterTruck\android\AndroidManifest.xml:4:5-42:19
+59        android:allowBackup="true"
+59-->D:\MonsterTruck\android\AndroidManifest.xml:5:9-35
+60        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+60-->[androidx.core:core:1.10.1] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\8bbff6c3d283c20e01d916d7ea33e027\transformed\core-1.10.1\AndroidManifest.xml:28:18-86
+61        android:debuggable="true"
+62        android:extractNativeLibs="false"
+63        android:fullBackupContent="true"
+63-->D:\MonsterTruck\android\AndroidManifest.xml:6:9-41
+64        android:icon="@drawable/ic_launcher"
+64-->D:\MonsterTruck\android\AndroidManifest.xml:7:9-45
+65        android:label="@string/app_name"
+65-->D:\MonsterTruck\android\AndroidManifest.xml:8:9-41
+66        android:testOnly="true"
+67        android:theme="@style/GdxTheme" >
+67-->D:\MonsterTruck\android\AndroidManifest.xml:9:9-40
+68
+69        <!-- Google Play Games -->
+70        <meta-data
+70-->D:\MonsterTruck\android\AndroidManifest.xml:12:9-14:46
+71            android:name="com.google.android.gms.games.APP_ID"
+71-->D:\MonsterTruck\android\AndroidManifest.xml:13:13-63
+72            android:value="@string/app_id" />
+72-->D:\MonsterTruck\android\AndroidManifest.xml:14:13-43
+73
+74        <!-- AdMob -->
+75        <meta-data
+75-->D:\MonsterTruck\android\AndroidManifest.xml:17:9-19:51
+76            android:name="com.google.android.gms.ads.APPLICATION_ID"
+76-->D:\MonsterTruck\android\AndroidManifest.xml:18:13-69
+77            android:value="@string/adMob_app_id" />
+77-->D:\MonsterTruck\android\AndroidManifest.xml:19:13-49
+78        <meta-data
+78-->D:\MonsterTruck\android\AndroidManifest.xml:20:9-22:69
+79            android:name="com.google.android.gms.version"
+79-->D:\MonsterTruck\android\AndroidManifest.xml:21:13-58
+80            android:value="@integer/google_play_services_version" />
+80-->D:\MonsterTruck\android\AndroidManifest.xml:22:13-66
+81
+82        <activity
+82-->D:\MonsterTruck\android\AndroidManifest.xml:23:9-26:64
+83            android:name="com.google.android.gms.ads.AdActivity"
+83-->D:\MonsterTruck\android\AndroidManifest.xml:24:13-65
+84            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+84-->D:\MonsterTruck\android\AndroidManifest.xml:25:13-122
+85            android:enableOnBackInvokedCallback="false"
+85-->[com.google.android.gms:play-services-ads-api:25.0.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\05d8eafdd6d3be5948748f160f7ebab5\transformed\jetified-play-services-ads-api-25.0.0\AndroidManifest.xml:76:13-56
+86            android:exported="false"
+86-->[com.google.android.gms:play-services-ads-api:25.0.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\05d8eafdd6d3be5948748f160f7ebab5\transformed\jetified-play-services-ads-api-25.0.0\AndroidManifest.xml:77:13-37
+87            android:theme="@android:style/Theme.Translucent" />
+87-->D:\MonsterTruck\android\AndroidManifest.xml:26:13-61
+88
+89        <!-- Launcher -->
+90        <activity
+90-->D:\MonsterTruck\android\AndroidManifest.xml:29:9-40:20
+91            android:name="com.monstertruck.arena.AndroidLauncher"
+91-->D:\MonsterTruck\android\AndroidManifest.xml:31:13-66
+92            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+92-->D:\MonsterTruck\android\AndroidManifest.xml:32:13-83
+93            android:exported="true"
+93-->D:\MonsterTruck\android\AndroidManifest.xml:30:13-36
+94            android:label="@string/app_name"
+94-->D:\MonsterTruck\android\AndroidManifest.xml:33:13-45
+95            android:screenOrientation="sensorLandscape" >
+95-->D:\MonsterTruck\android\AndroidManifest.xml:34:13-56
+96            <intent-filter>
+96-->D:\MonsterTruck\android\AndroidManifest.xml:35:13-39:29
+97                <action android:name="android.intent.action.MAIN" />
+97-->D:\MonsterTruck\android\AndroidManifest.xml:36:17-69
+97-->D:\MonsterTruck\android\AndroidManifest.xml:36:25-66
+98
+99                <category android:name="android.intent.category.LAUNCHER" />
+99-->D:\MonsterTruck\android\AndroidManifest.xml:38:17-77
+99-->D:\MonsterTruck\android\AndroidManifest.xml:38:27-74
+100            </intent-filter>
+101        </activity>
+102
+103        <provider
+103-->[com.google.android.gms:play-services-games-v2:20.1.2] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\961a474ae465ec023903cfc8b5b6176e\transformed\jetified-play-services-games-v2-20.1.2\AndroidManifest.xml:13:9-17:38
+104            android:name="com.google.android.gms.games.provider.PlayGamesInitProvider"
+104-->[com.google.android.gms:play-services-games-v2:20.1.2] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\961a474ae465ec023903cfc8b5b6176e\transformed\jetified-play-services-games-v2-20.1.2\AndroidManifest.xml:14:13-87
+105            android:authorities="com.monstertruck.arena.playgamesinitprovider"
+105-->[com.google.android.gms:play-services-games-v2:20.1.2] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\961a474ae465ec023903cfc8b5b6176e\transformed\jetified-play-services-games-v2-20.1.2\AndroidManifest.xml:15:13-73
+106            android:exported="false"
+106-->[com.google.android.gms:play-services-games-v2:20.1.2] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\961a474ae465ec023903cfc8b5b6176e\transformed\jetified-play-services-games-v2-20.1.2\AndroidManifest.xml:16:13-37
+107            android:initOrder="99" />
+107-->[com.google.android.gms:play-services-games-v2:20.1.2] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\961a474ae465ec023903cfc8b5b6176e\transformed\jetified-play-services-games-v2-20.1.2\AndroidManifest.xml:17:13-35
+108
+109        <activity
+109-->[com.google.android.gms:play-services-games-v2:20.1.2] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\961a474ae465ec023903cfc8b5b6176e\transformed\jetified-play-services-games-v2-20.1.2\AndroidManifest.xml:19:9-22:62
+110            android:name="com.google.android.gms.games.internal.v2.resolution.GamesResolutionActivity"
+110-->[com.google.android.gms:play-services-games-v2:20.1.2] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\961a474ae465ec023903cfc8b5b6176e\transformed\jetified-play-services-games-v2-20.1.2\AndroidManifest.xml:20:13-103
+111            android:exported="false"
+111-->[com.google.android.gms:play-services-games-v2:20.1.2] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\961a474ae465ec023903cfc8b5b6176e\transformed\jetified-play-services-games-v2-20.1.2\AndroidManifest.xml:21:13-37
+112            android:theme="@style/Theme.Games.Transparent" />
+112-->[com.google.android.gms:play-services-games-v2:20.1.2] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\961a474ae465ec023903cfc8b5b6176e\transformed\jetified-play-services-games-v2-20.1.2\AndroidManifest.xml:22:13-59
+113        <activity
+113-->[com.google.android.gms:play-services-games-v2:20.1.2] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\961a474ae465ec023903cfc8b5b6176e\transformed\jetified-play-services-games-v2-20.1.2\AndroidManifest.xml:23:9-26:62
+114            android:name="com.google.android.gms.games.internal.v2.appshortcuts.PlayGamesAppShortcutsActivity"
+114-->[com.google.android.gms:play-services-games-v2:20.1.2] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\961a474ae465ec023903cfc8b5b6176e\transformed\jetified-play-services-games-v2-20.1.2\AndroidManifest.xml:24:13-111
+115            android:exported="true"
+115-->[com.google.android.gms:play-services-games-v2:20.1.2] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\961a474ae465ec023903cfc8b5b6176e\transformed\jetified-play-services-games-v2-20.1.2\AndroidManifest.xml:25:13-36
+116            android:theme="@style/Theme.Games.Transparent" />
+116-->[com.google.android.gms:play-services-games-v2:20.1.2] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\961a474ae465ec023903cfc8b5b6176e\transformed\jetified-play-services-games-v2-20.1.2\AndroidManifest.xml:26:13-59
+117
+118        <meta-data
+118-->[com.google.android.gms:play-services-games-v2:20.1.2] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\961a474ae465ec023903cfc8b5b6176e\transformed\jetified-play-services-games-v2-20.1.2\AndroidManifest.xml:28:9-30:62
+119            android:name="com.google.android.gms.games.version"
+119-->[com.google.android.gms:play-services-games-v2:20.1.2] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\961a474ae465ec023903cfc8b5b6176e\transformed\jetified-play-services-games-v2-20.1.2\AndroidManifest.xml:29:13-64
+120            android:value="@string/play_games_sdk_version" />
+120-->[com.google.android.gms:play-services-games-v2:20.1.2] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\961a474ae465ec023903cfc8b5b6176e\transformed\jetified-play-services-games-v2-20.1.2\AndroidManifest.xml:30:13-59
+121
+122        <activity
+122-->[com.google.android.gms:play-services-auth:21.5.1] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\0198df000c76094d43a376e94593140d\transformed\jetified-play-services-auth-21.5.1\AndroidManifest.xml:23:9-27:75
+123            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+123-->[com.google.android.gms:play-services-auth:21.5.1] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\0198df000c76094d43a376e94593140d\transformed\jetified-play-services-auth-21.5.1\AndroidManifest.xml:24:13-93
+124            android:excludeFromRecents="true"
+124-->[com.google.android.gms:play-services-auth:21.5.1] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\0198df000c76094d43a376e94593140d\transformed\jetified-play-services-auth-21.5.1\AndroidManifest.xml:25:13-46
+125            android:exported="false"
+125-->[com.google.android.gms:play-services-auth:21.5.1] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\0198df000c76094d43a376e94593140d\transformed\jetified-play-services-auth-21.5.1\AndroidManifest.xml:26:13-37
+126            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+126-->[com.google.android.gms:play-services-auth:21.5.1] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\0198df000c76094d43a376e94593140d\transformed\jetified-play-services-auth-21.5.1\AndroidManifest.xml:27:13-72
+127        <!--
+128            Service handling Google Sign-In user revocation. For apps that do not integrate with
+129            Google Sign-In, this service will never be started.
+130        -->
+131        <service
+131-->[com.google.android.gms:play-services-auth:21.5.1] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\0198df000c76094d43a376e94593140d\transformed\jetified-play-services-auth-21.5.1\AndroidManifest.xml:33:9-37:51
+132            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+132-->[com.google.android.gms:play-services-auth:21.5.1] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\0198df000c76094d43a376e94593140d\transformed\jetified-play-services-auth-21.5.1\AndroidManifest.xml:34:13-89
+133            android:exported="true"
+133-->[com.google.android.gms:play-services-auth:21.5.1] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\0198df000c76094d43a376e94593140d\transformed\jetified-play-services-auth-21.5.1\AndroidManifest.xml:35:13-36
+134            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+134-->[com.google.android.gms:play-services-auth:21.5.1] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\0198df000c76094d43a376e94593140d\transformed\jetified-play-services-auth-21.5.1\AndroidManifest.xml:36:13-107
+135            android:visibleToInstantApps="true" />
+135-->[com.google.android.gms:play-services-auth:21.5.1] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\0198df000c76094d43a376e94593140d\transformed\jetified-play-services-auth-21.5.1\AndroidManifest.xml:37:13-48
+136
+137        <provider
+137-->[com.google.android.gms:play-services-ads-api:25.0.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\05d8eafdd6d3be5948748f160f7ebab5\transformed\jetified-play-services-ads-api-25.0.0\AndroidManifest.xml:81:9-86:43
+138            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+138-->[com.google.android.gms:play-services-ads-api:25.0.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\05d8eafdd6d3be5948748f160f7ebab5\transformed\jetified-play-services-ads-api-25.0.0\AndroidManifest.xml:82:13-76
+139            android:authorities="com.monstertruck.arena.mobileadsinitprovider"
+139-->[com.google.android.gms:play-services-ads-api:25.0.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\05d8eafdd6d3be5948748f160f7ebab5\transformed\jetified-play-services-ads-api-25.0.0\AndroidManifest.xml:83:13-73
+140            android:exported="false"
+140-->[com.google.android.gms:play-services-ads-api:25.0.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\05d8eafdd6d3be5948748f160f7ebab5\transformed\jetified-play-services-ads-api-25.0.0\AndroidManifest.xml:84:13-37
+141            android:initOrder="100" />
+141-->[com.google.android.gms:play-services-ads-api:25.0.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\05d8eafdd6d3be5948748f160f7ebab5\transformed\jetified-play-services-ads-api-25.0.0\AndroidManifest.xml:85:13-36
+142
+143        <service
+143-->[com.google.android.gms:play-services-ads-api:25.0.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\05d8eafdd6d3be5948748f160f7ebab5\transformed\jetified-play-services-ads-api-25.0.0\AndroidManifest.xml:88:9-92:43
+144            android:name="com.google.android.gms.ads.AdService"
+144-->[com.google.android.gms:play-services-ads-api:25.0.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\05d8eafdd6d3be5948748f160f7ebab5\transformed\jetified-play-services-ads-api-25.0.0\AndroidManifest.xml:89:13-64
+145            android:enabled="true"
+145-->[com.google.android.gms:play-services-ads-api:25.0.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\05d8eafdd6d3be5948748f160f7ebab5\transformed\jetified-play-services-ads-api-25.0.0\AndroidManifest.xml:90:13-35
+146            android:exported="false" />
+146-->[com.google.android.gms:play-services-ads-api:25.0.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\05d8eafdd6d3be5948748f160f7ebab5\transformed\jetified-play-services-ads-api-25.0.0\AndroidManifest.xml:91:13-37
+147
+148        <activity
+148-->[com.google.android.gms:play-services-ads-api:25.0.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\05d8eafdd6d3be5948748f160f7ebab5\transformed\jetified-play-services-ads-api-25.0.0\AndroidManifest.xml:94:9-98:43
+149            android:name="com.google.android.gms.ads.OutOfContextTestingActivity"
+149-->[com.google.android.gms:play-services-ads-api:25.0.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\05d8eafdd6d3be5948748f160f7ebab5\transformed\jetified-play-services-ads-api-25.0.0\AndroidManifest.xml:95:13-82
+150            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+150-->[com.google.android.gms:play-services-ads-api:25.0.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\05d8eafdd6d3be5948748f160f7ebab5\transformed\jetified-play-services-ads-api-25.0.0\AndroidManifest.xml:96:13-122
+151            android:exported="false" />
+151-->[com.google.android.gms:play-services-ads-api:25.0.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\05d8eafdd6d3be5948748f160f7ebab5\transformed\jetified-play-services-ads-api-25.0.0\AndroidManifest.xml:97:13-37
+152        <activity
+152-->[com.google.android.gms:play-services-ads-api:25.0.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\05d8eafdd6d3be5948748f160f7ebab5\transformed\jetified-play-services-ads-api-25.0.0\AndroidManifest.xml:99:9-106:43
+153            android:name="com.google.android.gms.ads.NotificationHandlerActivity"
+153-->[com.google.android.gms:play-services-ads-api:25.0.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\05d8eafdd6d3be5948748f160f7ebab5\transformed\jetified-play-services-ads-api-25.0.0\AndroidManifest.xml:100:13-82
+154            android:excludeFromRecents="true"
+154-->[com.google.android.gms:play-services-ads-api:25.0.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\05d8eafdd6d3be5948748f160f7ebab5\transformed\jetified-play-services-ads-api-25.0.0\AndroidManifest.xml:101:13-46
+155            android:exported="false"
+155-->[com.google.android.gms:play-services-ads-api:25.0.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\05d8eafdd6d3be5948748f160f7ebab5\transformed\jetified-play-services-ads-api-25.0.0\AndroidManifest.xml:102:13-37
+156            android:launchMode="singleTask"
+156-->[com.google.android.gms:play-services-ads-api:25.0.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\05d8eafdd6d3be5948748f160f7ebab5\transformed\jetified-play-services-ads-api-25.0.0\AndroidManifest.xml:103:13-44
+157            android:taskAffinity=""
+157-->[com.google.android.gms:play-services-ads-api:25.0.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\05d8eafdd6d3be5948748f160f7ebab5\transformed\jetified-play-services-ads-api-25.0.0\AndroidManifest.xml:104:13-36
+158            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+158-->[com.google.android.gms:play-services-ads-api:25.0.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\05d8eafdd6d3be5948748f160f7ebab5\transformed\jetified-play-services-ads-api-25.0.0\AndroidManifest.xml:105:13-72
+159
+160        <meta-data
+160-->[com.google.android.gms:play-services-ads-api:25.0.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\05d8eafdd6d3be5948748f160f7ebab5\transformed\jetified-play-services-ads-api-25.0.0\AndroidManifest.xml:108:9-110:36
+161            android:name="com.google.android.gms.ads.flag.OPTIMIZE_AD_LOADING"
+161-->[com.google.android.gms:play-services-ads-api:25.0.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\05d8eafdd6d3be5948748f160f7ebab5\transformed\jetified-play-services-ads-api-25.0.0\AndroidManifest.xml:109:13-79
+162            android:value="true" />
+162-->[com.google.android.gms:play-services-ads-api:25.0.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\05d8eafdd6d3be5948748f160f7ebab5\transformed\jetified-play-services-ads-api-25.0.0\AndroidManifest.xml:110:13-33
+163        <meta-data
+163-->[com.google.android.gms:play-services-ads-api:25.0.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\05d8eafdd6d3be5948748f160f7ebab5\transformed\jetified-play-services-ads-api-25.0.0\AndroidManifest.xml:111:9-113:36
+164            android:name="com.google.android.gms.ads.flag.OPTIMIZE_INITIALIZATION"
+164-->[com.google.android.gms:play-services-ads-api:25.0.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\05d8eafdd6d3be5948748f160f7ebab5\transformed\jetified-play-services-ads-api-25.0.0\AndroidManifest.xml:112:13-83
+165            android:value="true" />
+165-->[com.google.android.gms:play-services-ads-api:25.0.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\05d8eafdd6d3be5948748f160f7ebab5\transformed\jetified-play-services-ads-api-25.0.0\AndroidManifest.xml:113:13-33
+166
+167        <activity
+167-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\a36e3d81300245dcdaf31fbd59c2f11f\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:9-173
+168            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+168-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\a36e3d81300245dcdaf31fbd59c2f11f\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:19-85
+169            android:exported="false"
+169-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\a36e3d81300245dcdaf31fbd59c2f11f\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:146-170
+170            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+170-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\a36e3d81300245dcdaf31fbd59c2f11f\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:86-145
+171
+172        <uses-library
+172-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\63caa8bf6109ecbe6af1511e60399f08\transformed\jetified-ads-adservices-1.0.0-beta05\AndroidManifest.xml:23:9-25:40
+173            android:name="android.ext.adservices"
+173-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\63caa8bf6109ecbe6af1511e60399f08\transformed\jetified-ads-adservices-1.0.0-beta05\AndroidManifest.xml:24:13-50
+174            android:required="false" />
+174-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\63caa8bf6109ecbe6af1511e60399f08\transformed\jetified-ads-adservices-1.0.0-beta05\AndroidManifest.xml:25:13-37
+175
+176        <provider
+176-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:31:9-39:20
+177            android:name="androidx.startup.InitializationProvider"
+177-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:32:13-67
+178            android:authorities="com.monstertruck.arena.androidx-startup"
+178-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:33:13-68
+179            android:exported="false" >
+179-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:34:13-37
+180            <meta-data
+180-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:36:13-38:52
+181                android:name="androidx.work.WorkManagerInitializer"
+181-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:37:17-68
+182                android:value="androidx.startup" />
+182-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:38:17-49
+183        </provider>
+184
+185        <service
+185-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:41:9-46:35
+186            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+186-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:42:13-88
+187            android:directBootAware="false"
+187-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:43:13-44
+188            android:enabled="@bool/enable_system_alarm_service_default"
+188-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:44:13-72
+189            android:exported="false" />
+189-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:45:13-37
+190        <service
+190-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:47:9-53:35
+191            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+191-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:48:13-84
+192            android:directBootAware="false"
+192-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:49:13-44
+193            android:enabled="@bool/enable_system_job_service_default"
+193-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:50:13-70
+194            android:exported="true"
+194-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:51:13-36
+195            android:permission="android.permission.BIND_JOB_SERVICE" />
+195-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:52:13-69
+196        <service
+196-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:54:9-59:35
+197            android:name="androidx.work.impl.foreground.SystemForegroundService"
+197-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:55:13-81
+198            android:directBootAware="false"
+198-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:56:13-44
+199            android:enabled="@bool/enable_system_foreground_service_default"
+199-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:57:13-77
+200            android:exported="false" />
+200-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:58:13-37
+201
+202        <receiver
+202-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:61:9-66:35
+203            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+203-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:62:13-88
+204            android:directBootAware="false"
+204-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:63:13-44
+205            android:enabled="true"
+205-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:64:13-35
+206            android:exported="false" />
+206-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:65:13-37
+207        <receiver
+207-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:67:9-77:20
+208            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+208-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:68:13-106
+209            android:directBootAware="false"
+209-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:69:13-44
+210            android:enabled="false"
+210-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:70:13-36
+211            android:exported="false" >
+211-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:71:13-37
+212            <intent-filter>
+212-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:73:13-76:29
+213                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+213-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:74:17-87
+213-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:74:25-84
+214                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+214-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:75:17-90
+214-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:75:25-87
+215            </intent-filter>
+216        </receiver>
+217        <receiver
+217-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:78:9-88:20
+218            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+218-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:79:13-104
+219            android:directBootAware="false"
+219-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:80:13-44
+220            android:enabled="false"
+220-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:81:13-36
+221            android:exported="false" >
+221-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:82:13-37
+222            <intent-filter>
+222-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:84:13-87:29
+223                <action android:name="android.intent.action.BATTERY_OKAY" />
+223-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:85:17-77
+223-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:85:25-74
+224                <action android:name="android.intent.action.BATTERY_LOW" />
+224-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:86:17-76
+224-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:86:25-73
+225            </intent-filter>
+226        </receiver>
+227        <receiver
+227-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:89:9-99:20
+228            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+228-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:90:13-104
+229            android:directBootAware="false"
+229-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:91:13-44
+230            android:enabled="false"
+230-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:92:13-36
+231            android:exported="false" >
+231-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:93:13-37
+232            <intent-filter>
+232-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:95:13-98:29
+233                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+233-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:96:17-83
+233-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:96:25-80
+234                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+234-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:97:17-82
+234-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:97:25-79
+235            </intent-filter>
+236        </receiver>
+237        <receiver
+237-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:100:9-109:20
+238            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+238-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:101:13-103
+239            android:directBootAware="false"
+239-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:102:13-44
+240            android:enabled="false"
+240-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:103:13-36
+241            android:exported="false" >
+241-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:104:13-37
+242            <intent-filter>
+242-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:106:13-108:29
+243                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+243-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:107:17-79
+243-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:107:25-76
+244            </intent-filter>
+245        </receiver>
+246        <receiver
+246-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:110:9-121:20
+247            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+247-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:111:13-88
+248            android:directBootAware="false"
+248-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:112:13-44
+249            android:enabled="false"
+249-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:113:13-36
+250            android:exported="false" >
+250-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:114:13-37
+251            <intent-filter>
+251-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:116:13-120:29
+252                <action android:name="android.intent.action.BOOT_COMPLETED" />
+252-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:117:17-79
+252-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:117:25-76
+253                <action android:name="android.intent.action.TIME_SET" />
+253-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:118:17-73
+253-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:118:25-70
+254                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+254-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:119:17-81
+254-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:119:25-78
+255            </intent-filter>
+256        </receiver>
+257        <receiver
+257-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:122:9-131:20
+258            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+258-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:123:13-99
+259            android:directBootAware="false"
+259-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:124:13-44
+260            android:enabled="@bool/enable_system_alarm_service_default"
+260-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:125:13-72
+261            android:exported="false" >
+261-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:126:13-37
+262            <intent-filter>
+262-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:128:13-130:29
+263                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+263-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:129:17-98
+263-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:129:25-95
+264            </intent-filter>
+265        </receiver>
+266        <receiver
+266-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:132:9-142:20
+267            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+267-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:133:13-78
+268            android:directBootAware="false"
+268-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:134:13-44
+269            android:enabled="true"
+269-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:135:13-35
+270            android:exported="true"
+270-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:136:13-36
+271            android:permission="android.permission.DUMP" >
+271-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:137:13-57
+272            <intent-filter>
+272-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:139:13-141:29
+273                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+273-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:140:17-88
+273-->[androidx.work:work-runtime:2.7.0] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\ade246e5195dabf34d916bdec2a49fce\transformed\work-runtime-2.7.0\AndroidManifest.xml:140:25-85
+274            </intent-filter>
+275        </receiver>
+276
+277        <service
+277-->[androidx.room:room-runtime:2.2.5] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\43e211c18de3038f20610673a4c19103\transformed\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+278            android:name="androidx.room.MultiInstanceInvalidationService"
+278-->[androidx.room:room-runtime:2.2.5] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\43e211c18de3038f20610673a4c19103\transformed\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
+279            android:directBootAware="true"
+279-->[androidx.room:room-runtime:2.2.5] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\43e211c18de3038f20610673a4c19103\transformed\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+280            android:exported="false" />
+280-->[androidx.room:room-runtime:2.2.5] C:\Users\Rijas Dispatch\.jdks\ms-21.0.10\caches\transforms-3\43e211c18de3038f20610673a4c19103\transformed\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+281    </application>
+282
+283</manifest>
